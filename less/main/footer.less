@@ -1,0 +1,217 @@
+.footer{
+  background: url(noise_lines_transparent@2X.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+
+  .footer__wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+
+    .footer__context{
+      width: 280px;
+      padding-top: 57px;
+      letter-spacing: 2px;
+      line-height: 45px;
+
+      .footer__title{
+        font-size: 35px;
+        font-family: "Georgia";
+        font-weight: normal;
+        color: white;
+      }
+      .footer__inner{
+        display: flex;
+        margin-top: 20px;
+
+        .footer__email--icon{
+          margin-top: 20px;
+        }
+        .footer__email{
+          margin-top: 13px;
+
+          .footer__email--link{
+            font-size: 20px;
+            color: #F1CDB3;
+            text-decoration: none;
+            font-family: "Georgia";
+            font-weight: normal;
+            letter-spacing: 1.2px;
+            padding-left: 20px;
+          }
+        }
+        .footer__phone--icon{
+          padding-top: 6px;
+        }
+        .footer__phone{
+
+          .footer__phone--link{
+            font-size: 20px;
+            color: #F1CDB3;
+            text-decoration: none;
+            font-family: "Georgia";
+            font-weight: normal;
+            letter-spacing: 1.2px;
+            padding-left: 20px;
+          }
+        }
+      }
+    }
+    .footer__visit{
+      width: 280px;
+      padding-top: 57px;
+      letter-spacing: 2px;
+      line-height: 45px;
+      margin-left: 160px;
+      padding-left: 2px;
+
+      .footer__title{
+        font-size: 35px;
+        font-family: "Georgia";
+        font-weight: normal;
+        color: white;
+      }
+      .footer__inner{
+        display: flex;
+        margin-top: 20px;
+        width: 400px;
+
+        .footer__address--icon{
+          margin-top: 19px;
+          margin-right: 20px;
+          margin-left: -2px;
+
+        }
+        .footer__address{
+          margin-top: 14px;
+          line-height: 21px;
+
+          .footer__address--link{
+            font-size: 20px;
+            color: #F1CDB3;
+            text-decoration: none;
+            font-family: "Georgia";
+            font-weight: normal;
+            letter-spacing: 1.2px;
+          }
+        }
+      }
+
+      .footer__visit-other{
+        display: flex;
+
+
+        .footer__address--icon{
+          margin-top: 23px;
+          margin-right: 20px;
+          margin-left: -2px;
+
+        }
+        .footer__address{
+          margin-top: 29px;
+          line-height: 21px;
+
+          .footer__address--link{
+            font-size: 20px;
+            color: #F1CDB3;
+            text-decoration: none;
+            font-family: "Georgia";
+            font-weight: normal;
+            letter-spacing: 1.2px;
+          }
+        }
+      }
+    }
+    .footer__content{
+      margin-left: 182px;
+      margin-top: 38px;
+      height: 315px;
+    }
+  }
+}
+@media (min-width:768px) and (max-width:1280px){
+  .footer{
+
+    .footer__wrapper{
+      flex-wrap: wrap;
+      max-width: 768px;
+
+      .footer__context{
+        margin-left: 64px;
+        padding-top: 30px;
+      }
+      .footer__visit{
+        padding-top: 30px;
+        margin-left: 60px;
+        padding-left: 0px;
+
+        .footer__inner{
+          width: 300px;
+        }
+      }
+      .footer__content{
+        margin-left: 234px;
+        margin-top: 46px;
+      }
+    }
+  }
+}
+@media (min-width:320px) and (max-width:767px){
+  .footer{
+    .footer__wrapper{
+      flex-direction: column;
+      .footer__context{
+        width: auto;
+        text-align: center;
+        padding-top: 30px;
+        letter-spacing: 1.5px;
+            align-self: center;
+        .footer__title{
+          font-size: 25px;
+          line-height: 32px;
+          width: 320px;
+        }
+        .footer__inner{
+          justify-content: center;
+        }
+      }
+      .footer__visit{
+        width: auto;
+        text-align: center;
+        padding-top: 24px;
+        letter-spacing: 1.5px;
+        margin-left: 0;
+        align-self: center;
+        .footer__title{
+          font-size: 25px;
+          line-height: 32px;
+          margin-left: 15px;
+          margin-right: 15px;
+          width: 285px;
+        }
+        .footer__inner{
+          width: auto;
+          margin-top: 27px;
+          margin-left: 10px;
+          margin-right: 10px;
+
+          .footer__address{
+            text-align: left;
+          }
+        }
+        .footer__visit-other{
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-top: 7px;
+        }
+      }
+      .footer__content{
+        margin-left: 0px;
+        align-self: center;
+        margin-top: 22px;
+        height: 273px;
+        img{
+          width: 260px;
+        }
+      }
+    }
+  }
+}
